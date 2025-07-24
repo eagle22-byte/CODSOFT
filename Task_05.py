@@ -26,9 +26,9 @@ def delete_contact():
     name = input("Enter name to delete: ")
     if name in contacts:
         del contacts[name]
-        print(f"{name} deleted successfully.\n")
+        print(f"{name}'s contact deleted successfully.\n")
     else:
-        print(f"{name} not found.\n")
+        print(f"Not found.\n")
 
 while True:
     print("1. Add Contact\n2. View Contacts\n3. Search Contact\n4. Delete Contact\n5. Exit")
